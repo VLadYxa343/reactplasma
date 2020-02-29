@@ -1,0 +1,53 @@
+.order {
+    background-color: #283A47;
+}
+.order .dashed {
+    border: 3px dashed #FFFFFF;
+    box-sizing: border-box;
+    padding: 70px;
+}
+.input-group {
+    border: 0!important;
+    font-size: 14px;
+    background-color: #eee;
+    color: #333;
+    font-weight: 700;
+    padding: 15px;
+}
+.order {
+    letter-spacing: 0.085em;
+}
+.order .btn-blue {
+    background-color: #7786D4;
+    text-decoration: underline;
+}
+.order .drag-n-drop {
+    background-color: #2AC5F3;
+    height: 150px;
+    width: 100%;
+}
+.order .file {
+    max-width: 100%;
+}
+.order .btn-blue {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 100%;
+}
+.order .line {
+    background-color: #2AC5F3;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+@media (max-width: 760px) {
+    .order .dashed {
+        padding: 15px;
+    }
+}
+@media (max-width: 990px) {
+    .order .line {
+        margin: 40px 0;
+    }
+}

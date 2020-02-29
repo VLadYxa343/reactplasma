@@ -1,0 +1,30 @@
+* {
+    color: white;
+}
+.general {
+    background: url("../img/Header.png") center no-repeat;
+    background-size: cover;
+    padding: 150px 0 !important;
+}
+.general .text {
+    font-size: 48px;
+    font-weight: 800;
+}
+.sub-text {
+    font-size: 20px;
+}
+b {
+    font-weight: 600;
+}
+.image {
+    height: 500px;
+}
+@media(max-width: 760px) {
+    .general .text {
+        font-size: 30px;
+        overflow: auto;
+    }
+    .sub-text {
+        font-size: 16px !important;
+    }
+}
